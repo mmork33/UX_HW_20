@@ -1,0 +1,76 @@
+.nav {
+    background-color: #1A1818;
+    font-family: "Futura", Helvetica, sans-serif;
+    height: 50px;
+    width: 100%;
+}
+
+.bg-light {
+    background-color: #1A1818 !important;
+}
+.nav-link {
+    color: white;
+}
+
+.jumbotron {
+    background-color: #1A1818;
+    color: #ecc748;
+    font-family: "Futura", Helvetica, sans-serif;
+    padding-top: 80px;
+    margin-top: 20px;
+}
+
+.radiok {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+body {
+    background-color:#3A3a3a;
+}
+
+.card-header {
+    background-color:#1A1818;
+    font-family: "Futura", Helvetica, sans-serif;
+
+}
+
+.btn {
+    text-decoration: none;
+    color: #ecc748;
+}
+.card-body {
+    font-family: "Futura", Helvetica, sans-serif;
+    background-color: #3A3a3a;
+    color: white;
+    
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.card-body {
+    background-color: #1A1818
+
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.col {
+    justify-content: center;
+    background-color: #3A3a3a;
+    
+}
+

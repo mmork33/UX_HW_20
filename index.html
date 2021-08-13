@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+<title>Radio K Case Study</title>
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#overview">Overview</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#research">Research</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#iteration">Definition & Ideation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#prototype">Prototype</a>
+        </li>
+      </ul>
+    </nav>
+    <img src="../UX_HW_20/images/NEWradiokbanner.png" class="radiok responsive">
+    <div class="jumbotron jumbotron-fluid" id="overview">
+        <div class="container">
+          <h1 class="display-4">Radio K: Real College Radio</h1>
+          <p class="lead">The Problem: Radio K, a Twin Cities based college radio station, has navigation & content hierarchy problems on its website. Users want to connect with local music but also expect a seamless streaming experience</p>
+          <p class="lead">The Solution: Emphasize the streaming feature of the website  and restructure the content to increase listener following and potentially increase donations to the organization as a result</p>
+        </div>
+      </div>
+    
+
+    <div class="accordion" id="accordionExample">
+        <div class="card" id="research">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Vision Statement
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                Radio K (KUOM) breaks the norms of most radio stations with its unconventional music programming and specialty shows. This college run radio station relies on listener support to operate. If we can increase listeners and website traffic to Radiok.org, this could lead to an increase in donations. How can we encourage streaming users who typically use services like Spotify and Apple Music to instead tune in to Radio K's streaming website for their music needs?
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Surveys & Interviews
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                Once we had our hypothesis for the redesign, we created a google forms survey and list of interview questions to determine how users are currently streaming music and what Radio K could be doing to attract more listeners. Each member of the group conducted interviews and pooled the responses into an affinity diagram which gave us these key findings:
+            <ul>
+                <li>Users love ad-free streaming services</li>
+                <li>Users want supporting local music to be easier</li>
+                <li>Users have ingrained habits and expectations for streaming music</li>
+            </ul>
+            </div>
+          </div>
+    </div>
+
+        <div class="card" id="iteration">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Heuristic Evaluation
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                I conducted heuristic evaluations of the current site layout. I found their “donate” button is clearly emphasized, but that the rest of the content was disorganized. The home page is a grid with no clear hierarchy. Streaming isn't highlighted at all. We conducted a user test on the usability of the homepage and found that users get so overwhelmed by the content options that they exit the site rather than figure out what to focus on. Radio K is driving away potential listeners due to poor Information Architecture. Another team member used the results of card sorting to condense the nav and create a new sitemap for us to work from.
+          </div>
+        </div>
+      </div>
+    
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Problem Statement</h1>
+          <p class="lead">Users want more ways to engage with local music, but they also expect a glossy, seamless streaming experience. How can we encourage streaming users who typically use paid subscriptions to switch to Radio K in order to increase website traffic and donations for the organization?</p>
+        </div>
+      </div>
+      
+      <div class="card" style="width: 60%">
+        <img src="../UX_HW_20/images/radiok storyboard.jpg" class="card-img-top" alt="storyboard">
+        <div class="card-body">
+          <h5 class="card-title">Stroyboard</h5>
+          <p class="card-text"> One of my teammates defined our user story via storyboard. Our target user doesn't have access to a traditional radio and needs to utilize the streaming function on Radio K's website. The user finds connections to the local music scene through the station and becomes a loyal, donating listener.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 60%">
+        <img src="../UX_HW_20/images/User Flow.png" class="card-img-top" alt="User Flow">
+        <div class="card-body">
+          <h5 class="card-title">User Flow</h5>
+          <p class="card-text"> We brainstormed solutions using the “I like, I wish, What if” method and plugged those responses into a feature prioritization matrix. Overwhelmingly, users just wanted a more user friendly interface. We combined this need with our new sitemap to sketch out a user flow. Our flow focused on:
+              <ul>
+                  <li>Live streaming</li>
+                  <li>Donating</li>
+                  <li>Learning about artists</li>
+            </ul>
+        </p>
+        </div>
+      </div>
+      <div class="card" style="width: 60%">
+        <img src="../UX_HW_20/images/Events Hover.png" class="card-img-top" alt="Wireframe">
+        <div class="card-body">
+          <h5 class="card-title">Wireframes</h5>
+          <p class="card-text"> Each group member sketched ideas for the homepage and media player, then came together and used the best elements from each to start wire-framing. Radio K has strong branding, colors, and accessible text, so we decided not to make any major style changes. Visual elements we planned to incorporate more of were album art and a new streaming module based on current streaming apps like Spotify and Youtube Music. We were able to jump straight to mid-fidelity wireframes since all the brand visuals were decided.</p>
+          <p class="card-text"> To reorganize the content hierarchy, we were inspired by bulletin boards which are so often present on college campuses. We kept the grid style, but rearranged the sizes of the cards and widened the margins. Our new layout takes the eye through a natural Z pattern and feels less cramped. We chose to emphasize the donate button and live streaming button as the most important elements. It was important to us to design our wireframes so that the media player could be present on the screen at all times without being a distraction, as it appears in streaming services users are already familiar with. With the structure organized, we just filled in content from Radio K and our own music libraries.</p>
+        </div>
+
+    <div class="container-fluid" id="prototype">
+        <div class="row">
+            <div class="col">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUkyWhw1UqhNzW53FE7wusw%2FRadio-K-Prototype%3Fpage-id%3D0%253A1%26node-id%3D28%253A225%26viewport%3D292%252C48%252C0.04%26scaling%3Dscale-down%26starting-point-node-id%3D28%253A225" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</html>
